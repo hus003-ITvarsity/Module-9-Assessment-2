@@ -1,0 +1,44 @@
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #ffffff;
+    font: bold;
+
+}
+
+#local{
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+    background: linear-gradient(to bottom, black 25%, white 25% 70%, green 70% 100%);
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td{
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even){
+    background-color: black;
+    color: white;
+}
+#cities tr:nth-child(odd){
+    background-color: #ffffff;
+    color: red;
+}
+
+.col1{
+    width: 10%
+}
+
+.col2{
+    width: 45%
+}
+
